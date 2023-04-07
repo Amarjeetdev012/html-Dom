@@ -119,7 +119,7 @@ const itemList = document.querySelector('#items');
 
 // console.log(itemList.children);
 // console.log(itemList.children[1]);
-itemList.children[1].style.backgroundColor = '#3e695c'
+itemList.children[1].style.backgroundColor = '#3e695c';
 
 // first child
 // console.log(itemList.firstChild);
@@ -145,3 +145,30 @@ itemList.children[1].style.backgroundColor = '#3e695c'
 // console.log(itemList.previousElementSibling);
 
 // * Create Element
+
+// create a div
+// const newDiv = document.createElement('div');
+
+// add class
+// newDiv.className - 'hello';
+
+// add id
+// newDiv.id = 'hello11';
+
+// add attribute
+// newDiv.setAttribute('title', 'hello div');
+
+// create text node
+// const newDivText = document.createTextNode('hello world');
+
+// add text to div
+// newDiv.appendChild(newDivText);
+
+// const container = document.querySelector('header .container');
+
+// const h1 = document.querySelector('header h1');
+// console.log(newDiv);
+
+// newDiv.style.fontSize = '30px';
+
+// container.insertBefore(newDiv, h1);
