@@ -64,12 +64,84 @@
 // id    #
 // for tag or element direct name the tag or element like document.querySelector("p")
 
-const header = document.querySelector('#main-header');
-header.style.borderBottom = 'solid 4px #0e5ee8';
+// const header = document.querySelector('#main-header');
+// header.style.borderBottom = 'solid 4px #0e5ee8';
 
-const input = document.querySelector('input');
-input.value = 'hello world';
+// const input = document.querySelector('input');
+// input.value = 'hello world';
 
-const submit = document.querySelector('input[type="submit"]');
-submit.value = 'SEND';
-submit.style.color = '#12d4e6';
+// const submit = document.querySelector('input[type="submit"]');
+// submit.value = 'SEND';
+// submit.style.color = '#12d4e6';
+
+// const item = document.querySelector('.list-group-item')
+// item.style.color = '#0e1df0'
+
+// const lastItem = document.querySelector('.list-group-item:last-child')
+// lastItem.style.color = 'green'
+
+// const secondItem = document.querySelector('.list-group-item:nth-child(2)')
+// secondItem.style.color = 'coral'
+
+// * QUERYSELECTORALL //
+// class .
+// id    #
+// for tag or element direct name the tag or element like document.querySelector("p")
+
+// const titles = document.querySelectorAll('.title');
+// console.log(titles);
+// titles[0].textContent = 'Hello';
+
+// const odd = document.querySelectorAll('li:nth-child(odd)');
+// const even = document.querySelectorAll('li:nth-child(even)');
+
+// for (let index = 0; index < odd.length; index++) {
+//   odd[index].style.backgroundColor = '#baa22b';
+//   even[index].style.backgroundColor = '#05ed98';
+// }
+
+// *TRAVERSING THE DOM //
+
+// const itemList = document.querySelector('#items');
+// parent Node
+// console.log('itemList', itemList.parentNode);
+// itemList.parentNode.style.backgroundColor = '#475247'
+// console.log(itemList.parentNode.parentNode.parentNode);
+
+// parentElement
+const itemList = document.querySelector('#items');
+// console.log('itemList', itemList.parentElement);
+// itemList.parentElement.style.backgroundColor = '#475247';
+// console.log(itemList.parentElement.parentElement.parentElement);
+
+// child Nodes
+// console.log(itemList.childNodes);
+
+// console.log(itemList.children);
+// console.log(itemList.children[1]);
+itemList.children[1].style.backgroundColor = '#3e695c'
+
+// first child
+// console.log(itemList.firstChild);
+
+// first element child
+// console.log(itemList.firstElementChild);
+// itemList.firstElementChild.style.backgroundColor = "blue"
+// itemList.firstElementChild.textContent = 'Hello'
+
+// last child
+// console.log(itemList.lastChild);
+// last element child
+// console.log(itemList.lastElementChild);
+
+// next sibling
+// console.log(itemList.nextSibling);
+// next element Sibling
+// console.log(itemList.nextElementSibling);
+
+// previous sibling
+// console.log(itemList.previousSibling);
+// previous element sibling
+// console.log(itemList.previousElementSibling);
+
+// * Create Element
